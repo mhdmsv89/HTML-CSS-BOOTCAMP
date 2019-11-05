@@ -1,0 +1,54 @@
+* {
+  margin:0px;
+  padding: 0px;
+
+}
+div{
+  /* width: 100px; */
+  height: 20px;
+  border: 2px solid yellow;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+.c1{
+  border: 10px solid red;
+  margin: 2px;
+  padding: 5px;
+}
+.c2{
+  border: 10px dotted red;
+  margin: 2px;
+  padding: 5px;
+}
+.c3{
+  border: 10px dashed red;
+  margin: 2px;
+  padding: 5px;
+}
+.c4{
+  border: 10px groove red;
+  margin: 2px;
+  padding: 5px;
+}
+.c5{
+  border: 10px double red;
+  margin: 2px;
+  padding: 5px;
+}
+.c6{
+  border: 10px ridge red;
+  margin: 2px;
+  padding: 5px;
+}
+.c7{
+  border: 10px inset red;
+  margin: 2px;
+  padding: 5px;
+}
+.c8{
+  border: 10px outset red;
+  margin: 2px;
+  padding: 5px;
+}
