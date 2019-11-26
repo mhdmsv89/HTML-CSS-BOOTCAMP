@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Box Sizing Border Box</title>
+</head>
+<body>
+<h2>HERE'S THE PROBLEM:</h2>
+<div>
+    <p>no border</p>
+</div>
+
+<div class="border-me">
+    <p>border</p>
+</div>
+
+<h2>HERE'S THE SOLUTION:</h2>
+
+<div class="bb">
+    <p>no border</p>
+    <p>box-sizing: border-box;</p>
+</div>
+
+<div class="border-me bb">
+    <p>border</p>
+    <p>box-sizing: border-box;</p>
+    <p>PADDING & BORDER no longer increase my width</p>
+</div>
+
+</body>
+</html>
