@@ -22,3 +22,7 @@ h1{
   width: 150px;
   font-family: sans-serif, helvetica, "times new roman";
 }
+
+/* attribute selector */
+a[target] {
+  background-color: yellow;

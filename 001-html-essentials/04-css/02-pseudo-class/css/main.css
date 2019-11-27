@@ -1,0 +1,55 @@
+/* attribute selector */
+a[target] {
+  display: block;
+}
+
+/* pseudo class selectors */
+/* unvisited link */
+a:link {
+  color: white;
+  background-color: grey;
+  margin: 10px;
+  padding: 5px;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+/* pseudo class - css class */
+a.micro:hover {
+  background-color: blue;
+  color: red;
+}
+
+/* creating box with div */
+div {
+  width: 200px;
+  background-color: green;
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* hover on <div> */
+div:hover {
+  background-color: pink;
+}
+
+p {
+  display: none;
+}
+div:hover p {
+  display: block;
+}
