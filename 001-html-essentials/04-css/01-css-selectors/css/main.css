@@ -1,0 +1,24 @@
+/* selecting everything */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* element selector */
+h1{
+  color: blue;
+}
+
+/* class selector */
+.article{
+  border: 2px solid red;
+  background-color: grey;
+  font-size: 1.5em;
+}
+
+/* id selector */
+#lorem{
+  margin: 10px auto;
+  width: 150px;
+  font-family: sans-serif, helvetica, "times new roman";
+}
